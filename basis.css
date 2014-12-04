@@ -36,13 +36,35 @@ background-color: white;
 } 
 
 #kop p { 
+float: left; 
+width: 610px; 
+padding-left: 18px; 
+padding-right: 18px; 
+padding-top: 28px; 
+background-color: white; 
+line-height: 97%;
 font-family: helvetica, serif; 
-font-size: 40px; 
+font-size: 45px; 
 font-weight: bold; 
 color: black; 
 padding-left: 20px; 
 padding-top: 16px; 
 } 
+
+#schuin {
+line-height: 97%;
+font-family: helvetica, serif; 
+font-size: 45px; 
+width: 550px;
+height: 270px;
+background-color: white;
+border: 2px solid black;
+/* Rotate div */
+-ms-transform: rotate(7deg); /* IE 9 */
+-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+transform: rotate(7deg);
+}
+
 
 #midden { 
 width: 898px; 
@@ -51,6 +73,7 @@ border-right: 0px solid black;
 margin: 0 auto; 
 overflow: hidden; 
 } 
+
 
 #menu { 
 height: 26px; 
