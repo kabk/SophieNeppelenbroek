@@ -1,0 +1,378 @@
+body {
+	background-image: url('centimetertransparentThesis.png');
+	background-repeat: repeat-y;
+	background-position: absolute;
+	top: 500px;
+	left: 20px;
+	width: 1200px;	
+	background-color: #E0E0E0;
+	color: #222222;	
+	font-size: 9pt;
+	font-family: Helvetica;
+	letter-spacing: 0.4px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+html, body {
+	height: 100%;
+}
+
+
+
+hkop {
+	font-family: Helvetica;
+	padding-left: -20px;
+	font-size: 165px;
+	font-style: normal;
+	line-height: 0.85em;
+	transform: rotate(-25deg);
+	/*color: #4DB8B8;*/
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+
+
+ondertitel{
+	font-family: Helvetica, sans-serif;
+	display: block;
+	text-align: right;
+	margin-top: 150px;
+	font-size: 40px;
+	margin-bottom: -100px;
+	line-height: 38px;
+	text-transform: uppercase;;
+	letter-spacing: 0.04em;
+	transform: rotate(-20deg);
+	
+}
+
+
+h1 {
+	font-family: Helvetica;
+	padding-left: -20px;
+	font-size: 30px;
+	font-style: normal;
+	line-height: 1.0em;
+	transform: rotate(-25deg);
+	/*color: #4DB8B8;*/
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+h2 {
+	font-size: 10pt;
+	font-family: Helvetica;
+	font-style: light;
+	letter-spacing: 0.5px;
+	
+}
+
+h3 {
+	position: relative;
+	font-size: 12.5px;
+	font-weight: bold;
+	color: #4DB8B8;
+	left: 100px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	
+}
+
+h4 {
+	position: relative;
+	font-size: 9px;
+	font-weight: normal;
+	font-style: italic;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+h5 {
+	font-size: 10px;
+	font-family: helvetica;
+	display: inline;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	}
+
+sup {
+	font-size: 8px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+b {
+	/*color: #4DB8B8;*/
+}
+
+i {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+imgtest {
+        position: absolute;
+        left: 500px;
+        top: 1000px;
+        width: 100%;
+       	height: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+.container {
+	font-size: 1.4em;
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	width: 500px;
+	margin: -250px;
+	line-height: 1.3;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+.nav {
+	position: fixed;
+	left: 2px;
+	height: 500px;
+	width: 250px;
+	top: 30px;
+	background: #E0E0E0;
+	overflow-y: hidden;
+	line-height: 1.3;
+	text-align: left;
+	font-size: 10pt;
+	display: none;
+	padding: 10px;
+}
+
+.navclick {
+    
+    font-style: bold;
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	text-align: left;
+	font-size: 14pt;
+}
+
+.navcover {
+	position: absolute;
+	right: 30px;
+	height: 100%;
+	width: 15%;
+	background: white;
+	display: none;
+}
+
+.header {
+	margin-top: 120px;
+	height: 500px;
+	text-align: center;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.header2 {
+	position: relative;
+	top: -540px;
+	height: 500px;
+	text-align: center;
+	-ms-transform: skew(0deg,3deg); /* IE 9 */
+    -webkit-transform: skew(0deg,3deg); /* Chrome, Safari, Opera */
+    transform: skew(0deg,3deg);
+    color: #4DB8B8;
+    font-size: 70pt;
+	font-weight: bold;
+	opacity: 0.2;
+	display: none;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+}
+
+.header h1 {
+	font-size: 100pt;
+	font-weight: bold;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.mainsources {
+	position: absolute;
+	left: -01px;
+	top: -5px;
+	bottom: 0px;
+	height: 3000px;
+	width: 8%;
+	font-size: 8px;
+/*    outline: #4DB8B8 dashed 1.5px; */
+    padding: 40px;
+}
+
+.voorwoord {
+	
+	margin-top: 400px;
+	left: 10px;
+	height: 1100px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.introductie  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 900px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.inleiding1  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 6850px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.inleiding2  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 6550px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.inleiding3  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 4400px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.abstract  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 1600px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.conclusie  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 2680px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	padding left: 80%;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+.bibliografie  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 1640px;
+	width: 500px;
+	background-color: white;
+	padding: 40px;
+	border: 40px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
+
+
+
+
+
+
+<!-- afbeeldingen scrollie-->
+.afbeelding1scroll {
+	position: absolute;
+	top: 1000px;
+	left: 20px;
+	width: 400px;
+	opacity: 0.5;
+
+	
+}
+
+.img {
+	position: fixed;
+    left: 10;
+    top: 10;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
