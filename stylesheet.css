@@ -1,16 +1,18 @@
 body {
 	background-image: url('centimetertransparentThesis.png');
 	background-repeat: repeat-y;
-	background-position: absolute;
+	background-position: relative;
 	top: 500px;
 	left: 20px;
-	width: 1200px;	
-	background-color: #E0E0E0;
-	color: #222222;	
+	width: 1200px;
+	height: 8000px;
+  background: -webkit-linear-gradient(#FFFF66, white, white, white, #FFFF66); 
+  background: -o-linear-gradient(right, #FFFF66, white, white, white, #FFFF66); 
+  background: -moz-linear-gradient(right,#FFFF66, white, white, white, #FFFF66); 
+  background: linear-gradient(to right, #FFFF66, white, white, white , #FFFF66); 
 	font-size: 9pt;
 	font-family: Helvetica;
 	letter-spacing: 0.4px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 }
 
 html, body {
@@ -44,6 +46,9 @@ ondertitel{
 	text-transform: uppercase;;
 	letter-spacing: 0.04em;
 	transform: rotate(-20deg);
+	position: relative;
+	left: 300px;
+	top: -640px;;
 	
 }
 
@@ -55,6 +60,7 @@ h1 {
 	font-style: normal;
 	line-height: 1.0em;
 	transform: rotate(-25deg);
+	
 	/*color: #4DB8B8;*/
 	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 
@@ -65,6 +71,8 @@ h2 {
 	font-family: Helvetica;
 	font-style: light;
 	letter-spacing: 0.5px;
+	position: relative;
+	top: -420px;;
 	
 }
 
@@ -89,12 +97,48 @@ h4 {
 	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 }
 
+
 h5 {
 	font-size: 10px;
 	font-family: helvetica;
 	display: inline;
 	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 	}
+
+
+
+
+
+
+
+
+
+
+/* hier komen alle styles voor afbeelding omschrijving*/
+h6 {
+	font-family: Helvetica;
+	font-size: 9pt;
+	font-style: normal;
+	letter-spacing: 0.4px;
+	text-align: left;
+	position: absolute;
+	left: -300px;
+	top: 4450px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+/* tot hier alle styles voor afbeelding omschrijving*/
+
+
+
+
+
 
 sup {
 	font-size: 8px;
@@ -137,18 +181,14 @@ imgtest {
     
     
     
-    
-    
-    
-    
 
 .container {
 	font-size: 1.4em;
-	position: absolute;
+	position: relative;
 	left: 50%;
-	top: 100px;
+	
 	width: 500px;
-	margin: -250px;
+	
 	line-height: 1.3;
 	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 }
@@ -163,10 +203,10 @@ imgtest {
 .nav {
 	position: fixed;
 	left: 2px;
-	height: 500px;
-	width: 250px;
+	height: 380px;
+	width: 270px;
 	top: 30px;
-	background: #E0E0E0;
+	background: white;
 	overflow-y: hidden;
 	line-height: 1.3;
 	text-align: left;
@@ -198,7 +238,6 @@ imgtest {
 	margin-top: 120px;
 	height: 500px;
 	text-align: center;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 
 }
 
@@ -353,24 +392,259 @@ imgtest {
 
 
 
-<!-- afbeeldingen scrollie-->
 .afbeelding1scroll {
 	position: absolute;
-	top: 1000px;
-	left: 20px;
-	width: 400px;
-	opacity: 0.5;
-
-	
+	left: -500px;
+	width: 500px;
+	height: auto;	
 }
+
+
+.afbeelding2scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding3scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding4scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding5scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding6scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: inherit;	
+}
+
+.afbeelding7scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding8scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding9scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding10scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding11scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding12scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding13scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding14scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding15scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding16scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding17scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding18scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding18bscroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding19ascroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding19bscroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding20scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding20bscroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding21scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding22scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding23scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding24scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding25scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding26scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding27scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeelding28scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+
+.afbeelding29scroll {
+	position: absolute;
+	left: 700px;
+	width: 300px;
+	height: auto;	
+}
+
+.afbeeldingoverzicht1scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeeldingoverzicht2scroll {
+	position: absolute;
+	left: 700px;
+	width: 500px;
+	height: auto;	
+}
+
+.afbeeldingoverzicht3scroll {
+	position: absolute;
+	left: -500px;
+	width: 500px;
+	height: auto;	
+}
+
 
 .img {
-	position: fixed;
-    left: 10;
-    top: 10;
-    width: 100px;
-    height: 100px;
-}
+	position: relative;
+    left: 100;
+    top: 100;
+   
 
 
 
