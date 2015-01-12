@@ -1,11 +1,12 @@
 body {
-	background-image: url('centimetertransparentThesis.png');
+background-image: url('centimetertransparentThesis.png');
 	background-repeat: repeat-y;
 	background-position: relative;
-	top: 500px;
+	top: 00px;
 	left: 20px;
-	width: 1200px;
-	height: 8000px;
+	width: 100%;
+	height: 6500px;
+	overflow-x: none;
   background: -webkit-linear-gradient(#FFFF66, white, white, white, #FFFF66); 
   background: -o-linear-gradient(right, #FFFF66, white, white, white, #FFFF66); 
   background: -moz-linear-gradient(right,#FFFF66, white, white, white, #FFFF66); 
@@ -15,8 +16,12 @@ body {
 	letter-spacing: 0.4px;
 }
 
+
+	
+
 html, body {
 	height: 100%;
+	
 }
 
 
@@ -115,16 +120,7 @@ h5 {
 
 
 /* hier komen alle styles voor afbeelding omschrijving*/
-h6 {
-	font-family: Helvetica;
-	font-size: 9pt;
-	font-style: normal;
-	letter-spacing: 0.4px;
-	text-align: left;
-	position: absolute;
-	left: -300px;
-	top: 4450px;
-}
+
 	
 	
 	
@@ -159,7 +155,7 @@ a {
 }
 
 a:hover {
-	color: grey;
+	color: #C0C0C0;
 }
 
 
@@ -185,25 +181,24 @@ imgtest {
 .container {
 	font-size: 1.4em;
 	position: relative;
-	left: 50%;
-	
+	margin: 0 auto;
 	width: 500px;
-	
 	line-height: 1.3;
 	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 }
 
 .container img {
-    width: 100%;
+   /*  width: 100%; */
     height: auto;
     max-width: 100%;
+ 
     cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
 }
 
 .nav {
 	position: fixed;
 	left: 2px;
-	height: 380px;
+	height: 420px;
 	width: 270px;
 	top: 30px;
 	background: white;
@@ -235,7 +230,7 @@ imgtest {
 }
 
 .header {
-	margin-top: 120px;
+	margin-top: -55px;
 	height: 500px;
 	text-align: center;
 
@@ -387,256 +382,393 @@ imgtest {
 
 }
 
+.voetnoot  {
+	
+	margin-top: 50px;
+	left: 10px;
+	height: 1640px;
+	width: 460px;
+	background-color: white;
+	padding: 10px;
+	border: 40px;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+
+}
 
 
 
+
+
+
+
+
+.afbeeldingscroll {
+	background-image: url("centimetertransparentThesis.png");
+	position: absolute;
+	left: -400px;
+	width: 300px;
+	background-repeat: repeat-y;
+	height: 100%;
+}
 
 
 .afbeelding1scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 350px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
+
 
 
 .afbeelding2scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 350px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
+
+
+
 
 .afbeelding3scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 550px;
+	width: 300px;
+	height: auto;
+	font-family: Helvetica;
+	font-size: 8pt;
 }
+
+
+
+
+
 
 .afbeelding4scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -370px;
+	width: 380px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding5scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 600px;
+	width: 250px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;
 }
 
 .afbeelding6scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: inherit;	
+	left: -350px;
+	width: 350px;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding7scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 350px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding8scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 600px;
+	width: 250px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding9scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
+	left: 580px;
+	width: 280px;
 	height: auto;	
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;
 }
 
 .afbeelding10scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 340px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding11scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
+	left: -350px;
+	width: 350px;
 	height: auto;	
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding12scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -360px;
+	width: 350px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding13scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -360px;
+	width: 350px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding14scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -240px;
+	width: 200px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding15scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 600px;
+	width: 250px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding16scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -240px;
+	width: 180px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding17scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -240px;
+	width: 200px;
+	height: auto;
+	text-align: right;
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding18scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
+	left: 560px;
+	width: 300px;
 	height: auto;	
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;
 }
 
 .afbeelding18bscroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 570px;
+	width: 280px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding19ascroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -340px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding19bscroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: -340px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding20scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 550px;
+	width: 200px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding20bscroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: 550px;
+	width: 200px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding21scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -340px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding22scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
+	left: 620px;
+	width: 200px;
 	height: auto;	
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeelding23scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -340px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding24scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -340px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding25scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 350px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding26scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -350px;
+	width: 350px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding27scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 560px;
+	width: 290px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeelding28scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: 560px;
+	width: 290px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 
 .afbeelding29scroll {
 	position: absolute;
-	left: 700px;
-	width: 300px;
+	left: 600px;
+	width: 200px;
 	height: auto;	
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;	
 }
 
 .afbeeldingoverzicht1scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -300px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeeldingoverzicht2scroll {
 	position: absolute;
-	left: 700px;
-	width: 500px;
-	height: auto;	
+	left: 550px;
+	width: 300px;
+	height: auto;
+	text-align: left;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 .afbeeldingoverzicht3scroll {
 	position: absolute;
-	left: -500px;
-	width: 500px;
-	height: auto;	
+	left: -300px;
+	width: 300px;
+	height: auto;
+	text-align: right;	
+	font-family: Helvetica;
+	font-size: 8pt;		
 }
 
 
