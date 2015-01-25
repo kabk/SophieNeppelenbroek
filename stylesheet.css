@@ -1,23 +1,22 @@
 body {
 background-image: url('centimetertransparentThesis.png');
 	background-repeat: repeat-y;
-	background-position: relative;
-	top: 00px;
-	left: 20px;
+	background-position: absolute;
+	top: 100px;
+	left: -20px;
 	width: 100%;
-	height: 6500px;
+	height: 9000px;
 	overflow-x: none;
-  background: -webkit-linear-gradient(#FFFF66, white, white, white, #FFFF66); 
-  background: -o-linear-gradient(right, #FFFF66, white, white, white, #FFFF66); 
-  background: -moz-linear-gradient(right,#FFFF66, white, white, white, #FFFF66); 
-  background: linear-gradient(to right, #FFFF66, white, white, white , #FFFF66); 
+  background: -webkit-linear-gradient(#988383, white, white, white, #988383); 
+  background: -o-linear-gradient(right, #988383, white, white, white, #988383); 
+  background: -moz-linear-gradient(right,#988383, white, white, white, #988383); 
+  background: linear-gradient(to right, #988383, white, white, white , #988383); 
 	font-size: 9pt;
 	font-family: Helvetica;
 	letter-spacing: 0.4px;
 }
 
 
-	
 
 html, body {
 	height: 100%;
@@ -34,7 +33,7 @@ hkop {
 	line-height: 0.85em;
 	transform: rotate(-25deg);
 	/*color: #4DB8B8;*/
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -67,7 +66,7 @@ h1 {
 	transform: rotate(-25deg);
 	
 	/*color: #4DB8B8;*/
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -87,7 +86,7 @@ h3 {
 	font-weight: bold;
 	color: #4DB8B8;
 	left: 100px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 	
 }
 
@@ -99,7 +98,7 @@ h4 {
 	left: 50%;
 	margin-left: -200px;
 	width: 400px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 }
 
 
@@ -107,7 +106,7 @@ h5 {
 	font-size: 10px;
 	font-family: helvetica;
 	display: inline;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 	}
 
 
@@ -138,7 +137,7 @@ h5 {
 
 sup {
 	font-size: 8px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 }
 
 b {
@@ -184,7 +183,7 @@ imgtest {
 	margin: 0 auto;
 	width: 500px;
 	line-height: 1.3;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 }
 
 .container img {
@@ -192,7 +191,7 @@ imgtest {
     height: auto;
     max-width: 100%;
  
-    cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+    cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 }
 
 .nav {
@@ -249,13 +248,13 @@ imgtest {
 	font-weight: bold;
 	opacity: 0.2;
 	display: none;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 }
 
 .header h1 {
 	font-size: 100pt;
 	font-weight: bold;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -281,7 +280,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -295,7 +294,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -309,7 +308,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -323,7 +322,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -337,7 +336,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -351,7 +350,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -365,7 +364,7 @@ imgtest {
 	padding: 40px;
 	border: 40px;
 	padding left: 80%;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -378,7 +377,7 @@ imgtest {
 	background-color: white;
 	padding: 40px;
 	border: 40px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -391,7 +390,7 @@ imgtest {
 	background-color: white;
 	padding: 10px;
 	border: 40px;
-	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/128/Men-icon.png), auto;
+	cursor: url(http://icons.iconarchive.com/icons/iconsmind/outline/96/Men-icon.png), auto;
 
 }
 
@@ -399,7 +398,14 @@ imgtest {
 
 
 
-
+.centimeter200 {
+	background-image: url("centimeter200.png");
+	position: absolute;
+	left: -300px;
+	width: 80px;
+	height: 10px;
+	font-size: 10px;
+}
 
 
 .afbeeldingscroll {
@@ -414,8 +420,8 @@ imgtest {
 
 .afbeelding1scroll {
 	position: absolute;
-	left: -350px;
-	width: 350px;
+	left: -250px;
+	width: 250px;
 	height: auto;
 	text-align: right;
 	font-family: Helvetica;
@@ -426,8 +432,8 @@ imgtest {
 
 .afbeelding2scroll {
 	position: absolute;
-	left: -350px;
-	width: 350px;
+	left: -380px;
+	width: 400px;
 	height: auto;
 	text-align: right;
 	font-family: Helvetica;
@@ -482,8 +488,8 @@ imgtest {
 
 .afbeelding7scroll {
 	position: absolute;
-	left: -350px;
-	width: 350px;
+	left: -400px;
+	width: 400px;
 	height: auto;
 	text-align: right;
 	font-family: Helvetica;
@@ -502,8 +508,8 @@ imgtest {
 
 .afbeelding9scroll {
 	position: absolute;
-	left: 580px;
-	width: 280px;
+	left: 650px;
+	width:90px;
 	height: auto;	
 	text-align: left;	
 	font-family: Helvetica;
@@ -512,8 +518,8 @@ imgtest {
 
 .afbeelding10scroll {
 	position: absolute;
-	left: -350px;
-	width: 340px;
+	left: -250px;
+	width: 205px;
 	height: auto;
 	text-align: right;
 	font-family: Helvetica;
@@ -522,8 +528,8 @@ imgtest {
 
 .afbeelding11scroll {
 	position: absolute;
-	left: -350px;
-	width: 350px;
+	left: -250px;
+	width: 200px;
 	height: auto;	
 	text-align: right;
 	font-family: Helvetica;
@@ -552,8 +558,8 @@ imgtest {
 
 .afbeelding14scroll {
 	position: absolute;
-	left: -240px;
-	width: 200px;
+	left: -420px;
+	width: 430px;
 	height: auto;
 	text-align: right;
 	font-family: Helvetica;
@@ -562,8 +568,8 @@ imgtest {
 
 .afbeelding15scroll {
 	position: absolute;
-	left: 600px;
-	width: 250px;
+	left: 570px;
+	width: 600px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -612,8 +618,8 @@ imgtest {
 
 .afbeelding19ascroll {
 	position: absolute;
-	left: -340px;
-	width: 300px;
+	left: -400px;
+	width: 400px;
 	height: auto;
 	text-align: right;	
 	font-family: Helvetica;
@@ -622,8 +628,8 @@ imgtest {
 
 .afbeelding19bscroll {
 	position: absolute;
-	left: -340px;
-	width: 300px;
+	left: -400px;
+	width: 400px;
 	height: auto;
 	text-align: right;	
 	font-family: Helvetica;
@@ -633,7 +639,7 @@ imgtest {
 .afbeelding20scroll {
 	position: absolute;
 	left: 550px;
-	width: 200px;
+	width: 400px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -642,8 +648,8 @@ imgtest {
 
 .afbeelding20bscroll {
 	position: absolute;
-	left: 550px;
-	width: 200px;
+	left: 600px;
+	width: 150px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -702,8 +708,8 @@ imgtest {
 
 .afbeelding26scroll {
 	position: absolute;
-	left: -350px;
-	width: 350px;
+	left: -580px;
+	width: 600px;
 	height: auto;
 	text-align: right;	
 	font-family: Helvetica;
@@ -713,7 +719,7 @@ imgtest {
 .afbeelding27scroll {
 	position: absolute;
 	left: 560px;
-	width: 290px;
+	width: 400px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -723,7 +729,7 @@ imgtest {
 .afbeelding28scroll {
 	position: absolute;
 	left: 560px;
-	width: 290px;
+	width: 400px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -734,7 +740,7 @@ imgtest {
 .afbeelding29scroll {
 	position: absolute;
 	left: 600px;
-	width: 200px;
+	width: 100px;
 	height: auto;	
 	text-align: left;	
 	font-family: Helvetica;
@@ -743,8 +749,8 @@ imgtest {
 
 .afbeeldingoverzicht1scroll {
 	position: absolute;
-	left: -300px;
-	width: 300px;
+	left: -350px;
+	width: 350px;
 	height: auto;
 	text-align: right;	
 	font-family: Helvetica;
@@ -754,7 +760,7 @@ imgtest {
 .afbeeldingoverzicht2scroll {
 	position: absolute;
 	left: 550px;
-	width: 300px;
+	width: 350px;
 	height: auto;
 	text-align: left;	
 	font-family: Helvetica;
@@ -763,8 +769,8 @@ imgtest {
 
 .afbeeldingoverzicht3scroll {
 	position: absolute;
-	left: -300px;
-	width: 300px;
+	left: -350px;
+	width: 350px;
 	height: auto;
 	text-align: right;	
 	font-family: Helvetica;
