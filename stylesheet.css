@@ -284,6 +284,10 @@ h2 {
 	.left h1 {
 		font-size: 45px;
 	}
+
+	.left h1.titel {
+		font-size: 135px
+	}
 }
 
 /**
